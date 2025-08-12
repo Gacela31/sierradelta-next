@@ -9,7 +9,7 @@ export default function Hero({locale}:{locale: string}) {
     <section className="relative overflow-hidden">
       <div className="container py-16 sm:py-24 grid gap-10 md:grid-cols-2 items-center">
         <div>
-          <span className="inline-block rounded-full border px-3 py-1 text-xs">{t('badge')}</span>
+          <span className="badge-accent">{t('badge')}</span>
           <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{t('title')}</h1>
           <p className="mt-4 text-slate-600">{t('desc')}</p>
           <div className="mt-6 flex flex-wrap gap-3">
