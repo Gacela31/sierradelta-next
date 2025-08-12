@@ -1,0 +1,62 @@
+{
+  "brand": "Grupo SierraDelta",
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "clients": "Clients",
+    "alliances": "Alliances",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Salta \u00b7 Argentina",
+    "title": "Solutions for high-altitude mining and food operations",
+    "desc": "We integrate food service for mining operations, technical supply, and strategic alliances for infrastructure, energy and telecommunications.",
+    "ctaServices": "See services",
+    "ctaContact": "Request proposal"
+  },
+  "bullets": {
+    "altitude": "Operations at high altitude",
+    "quality": "Quality and logistics for mining",
+    "partners": "Network of national partners"
+  },
+  "services": {
+    "title": "Services",
+    "desc": "Specialists in high-altitude operations and mining supply chains.",
+    "s1Title": "Supply & logistics at altitude",
+    "s1Desc": "Technical supply for works and camps: electrical, telecom, light infrastructure and more.",
+    "s2Title": "Food service for mining \u2013 Parador Baco\u00f1a",
+    "s2Desc": "Energy menu, controlled timing, food safety and traveler experience.",
+    "s3Title": "Integration with technical providers (GPI / Conduspar)",
+    "s3Desc": "Certified industrial cables, support for tenders and technical purchasing."
+  },
+  "clients": {
+    "title": "Clients & sectors",
+    "desc": "We support builders, electrical suppliers and service companies for mining in Salta and NOA.",
+    "c1": "High-altitude builders",
+    "c2": "Electrical / telco suppliers",
+    "c3": "Mining operations"
+  },
+  "alliances": {
+    "title": "Strategic alliances",
+    "desc": "Partners to expand technical capabilities, certifications and national coverage.",
+    "gpi": "Grupo Producir Integral (GPI)",
+    "conduspar": "Conduspar \u00b7 Industrial cables"
+  },
+  "cta": {
+    "title": "Need a tailored proposal?",
+    "desc": "Tell us about your project and we'll send a preliminary scope within 24-48 h.",
+    "button": "Contact the team"
+  },
+  "contact": {
+    "title": "Contact",
+    "desc": "Write to us and we'll schedule a call to understand your needs.",
+    "name": "Name & company",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "disclaimer": "By sending you agree to be contacted by our team."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

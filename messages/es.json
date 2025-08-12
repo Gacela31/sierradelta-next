@@ -1,0 +1,62 @@
+{
+  "brand": "Grupo SierraDelta",
+  "nav": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "clients": "Clientes",
+    "alliances": "Alianzas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "badge": "Salta \u00b7 Argentina",
+    "title": "Soluciones para el ecosistema minero y gastron\u00f3mico en altura",
+    "desc": "Integramos gastronom\u00eda para operaciones mineras, proveedur\u00eda t\u00e9cnica y alianzas estrat\u00e9gicas para infraestructura, energ\u00eda y telecomunicaciones.",
+    "ctaServices": "Ver servicios",
+    "ctaContact": "Pedir propuesta"
+  },
+  "bullets": {
+    "altitude": "Operaci\u00f3n en zonas de altura",
+    "quality": "Calidad y log\u00edstica para miner\u00eda",
+    "partners": "Red de partners nacionales"
+  },
+  "services": {
+    "title": "Servicios",
+    "desc": "Especialistas en operaciones en altura y cadenas de suministro para miner\u00eda.",
+    "s1Title": "Proveedur\u00eda y log\u00edstica en altura",
+    "s1Desc": "Abastecimiento t\u00e9cnico para obras y campamentos: el\u00e9ctricos, telecom, infraestructura liviana y m\u00e1s.",
+    "s2Title": "Gastronom\u00eda para miner\u00eda \u2013 Parador Baco\u00f1a",
+    "s2Desc": "Men\u00fa energ\u00e9tico, tiempos controlados, normas de inocuidad y experiencia del viajero.",
+    "s3Title": "Integraci\u00f3n con proveedores t\u00e9cnicos (GPI / Conduspar)",
+    "s3Desc": "Cables industriales certificados, soporte a licitaciones y compras t\u00e9cnicas."
+  },
+  "clients": {
+    "title": "Clientes y sectores",
+    "desc": "Acompa\u00f1amos a constructoras, proveedores el\u00e9ctricos y empresas de servicios para miner\u00eda en Salta y NOA.",
+    "c1": "Constructoras en altura",
+    "c2": "Proveedores el\u00e9ctricos / telco",
+    "c3": "Operaciones mineras"
+  },
+  "alliances": {
+    "title": "Alianzas estrat\u00e9gicas",
+    "desc": "Socios para ampliar capacidades t\u00e9cnicas, certificaciones y cobertura nacional.",
+    "gpi": "Grupo Producir Integral (GPI)",
+    "conduspar": "Conduspar \u00b7 Cables industriales"
+  },
+  "cta": {
+    "title": "\u00bfNecesit\u00e1s una propuesta a medida?",
+    "desc": "Contanos tu proyecto y en 24-48 h te enviamos un alcance preliminar.",
+    "button": "Contactar equipo"
+  },
+  "contact": {
+    "title": "Contacto",
+    "desc": "Escribinos y coordinamos una llamada para entender tus necesidades.",
+    "name": "Nombre y empresa",
+    "email": "Email",
+    "message": "Consulta",
+    "send": "Enviar",
+    "disclaimer": "Al enviar acept\u00e1s ser contactad@ por nuestro equipo."
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}
