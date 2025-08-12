@@ -1,5 +1,12 @@
 import createMiddleware from 'next-intl/middleware';
-import {locales, defaultLocale} from './next-intl.config.mjs';
 
-export default createMiddleware({ locales, defaultLocale, localeDetection: true });
-export const config = { matcher: ['/', '/(es|en)/:path*'] };
+export default createMiddleware({
+  // 👉 Definimos acá para evitar el import de .mjs
+  locales: ['es', 'en'],
+  defaultLocale: 'es',
+  localeDetection: true
+});
+
+export const config = {
+  matcher: ['/', '/(es|en)/:path*']
+};
