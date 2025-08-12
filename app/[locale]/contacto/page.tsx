@@ -1,21 +1,10 @@
-export const dynamic = 'force-dynamic';
 import {useTranslations} from 'next-intl';
+import ContactForm from '@/components/ContactForm';
+
+export const dynamic = 'force-dynamic';
 
 export default function ContactPage() {
   const t = useTranslations('contact');
-
-  async function send(data: FormData) {
-    'use server';
-    const name = String(data.get('name') || '');
-    const email = String(data.get('email') || '');
-    const message = String(data.get('message') || '');
-
-    await fetch(`${process.env.NEXT_PUBLIC_SITE_URL || ''}/api/contact`, {
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({name, email, message})
-    });
-  }
 
   return (
     <section className="bg-slate-900 text-white">
@@ -29,24 +18,8 @@ export default function ContactPage() {
             <li>contacto@gruposierradelta.com</li>
           </ul>
         </div>
-        <form action={send} className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
-          <div className="grid gap-4">
-            <div>
-              <label className="mb-2 block text-sm">{t('name')}</label>
-              <input name="name" className="w-full rounded-xl border border-white/10 bg-white/10 p-3 text-white placeholder-white/60 outline-none" placeholder="Ej: Ana · Constructora XYZ" />
-            </div>
-            <div>
-              <label className="mb-2 block text-sm">{t('email')}</label>
-              <input name="email" type="email" className="w-full rounded-xl border border-white/10 bg-white/10 p-3 text-white placeholder-white/60 outline-none" placeholder="tu@email.com" />
-            </div>
-            <div>
-              <label className="mb-2 block text-sm">{t('message')}</label>
-              <textarea name="message" rows={4} className="w-full rounded-xl border border-white/10 bg-white/10 p-3 text-white placeholder-white/60 outline-none" placeholder="Contanos sobre tu proyecto..." />
-            </div>
-            <button type="submit" className="w-full rounded-xl bg-white px-4 py-3 text-slate-900">{t('send')}</button>
-            <p className="text-xs text-slate-300">{t('disclaimer')}</p>
-          </div>
-        </form>
+
+        <ContactForm />
       </div>
     </section>
   );
