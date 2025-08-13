@@ -7,7 +7,7 @@ export default function ContactPage() {
   const t = useTranslations('contact');
 
   return (
-    <section className="bg-slate-900 text-white">
+    <section style={{ backgroundColor: "#1F3B49" }} className="text-white py-16">
       <div className="container py-16 sm:py-20 grid gap-8 md:grid-cols-2">
         <div>
           <h2 className="text-3xl font-semibold tracking-tight">{t('title')}</h2>

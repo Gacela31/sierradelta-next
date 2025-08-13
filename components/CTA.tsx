@@ -12,7 +12,7 @@ export default function CTA({locale}:{locale: string}) {
             <p className="mt-2 max-w-xl text-slate-600">{t('desc')}</p>
           </div>
           <div className="flex justify-end">
-            <Link href={`/${locale}/contacto`} className="rounded-xl bg-slate-900 px-5 py-3 text-white">{t('button')}</Link>
+            <Link href={`/${locale}/contacto`} className="btn-primary">{t('button')}</Link>
           </div>
         </div>
       </div>

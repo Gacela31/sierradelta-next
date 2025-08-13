@@ -7,7 +7,11 @@ const config: Config = {
     './messages/**/*.json'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        corporativo: "#1F3B49",
+      },
+    },
   },
   plugins: [],
 }

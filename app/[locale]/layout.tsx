@@ -1,17 +1,20 @@
-import type { Metadata } from 'next';
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, unstable_setRequestLocale } from 'next-intl/server';
-import { ReactNode } from 'react';
+import {Quicksand} from 'next/font/google';
+const quicksand = Quicksand({subsets: ['latin'], weight: ['400','500','600']});
+
+import type {Metadata} from 'next';
+import {NextIntlClientProvider} from 'next-intl';
+import {getMessages, unstable_setRequestLocale} from 'next-intl/server';
+import {ReactNode} from 'react';
 import '../globals.css';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 
 type Props = {
   children: ReactNode;
-  params: { locale: string };
+  params: {locale: string};
 };
 
-// Detectar si estamos en el dominio final o en el provisional
+// ¿Estamos en el dominio final?
 const IS_PROD_DOMAIN =
   (process.env.NEXT_PUBLIC_SITE_URL || '').includes('gruposierradelta.com');
 
@@ -22,6 +25,9 @@ export const metadata: Metadata = {
   },
   description:
     'Proveeduría técnica, alianzas estratégicas y gastronomía para operaciones mineras en Salta y NOA.',
+  icons: {
+    icon: '/favicon.ico', // aquí tu favicon
+  },
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'
   ),
@@ -39,16 +45,15 @@ export const metadata: Metadata = {
     : { index: false, follow: false }
 };
 
-export default async function LocaleLayout({
-  children,
-  params: { locale }
-}: Props) {
+
+export default async function LocaleLayout({children, params: {locale}}: Props) {
   unstable_setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className="bg-white text-slate-900 antialiased">
-      <body className="flex min-h-screen flex-col">
+    <html lang={locale} className="antialiased">
+      {/* 👇 Aplicamos Quicksand a TODO el sitio */}
+      <body className={`${quicksand.className} flex min-h-screen flex-col bg-white text-slate-900 pt-16`}>
         <NextIntlClientProvider messages={messages}>
           <NavBar />
           <main className="flex-1">{children}</main>
