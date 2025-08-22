@@ -8,49 +8,78 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "Salta \u00b7 Argentina",
-    "title": "Solutions for high-altitude mining and food operations",
-    "desc": "We integrate food service for mining operations, technical supply, and strategic alliances for infrastructure, energy and telecommunications.",
+    "badge": "San Antonio de los Cobres, Salta · Argentina",
+    "title": "Solutions for the mining and food ecosystem at high altitude",
+    "desc": "We integrate gastronomy for mining operations, technical supply and strategic alliances for infrastructure, energy and telecommunications.",
     "ctaServices": "See services",
     "ctaContact": "Request proposal"
   },
   "bullets": {
-    "altitude": "Operations at high altitude",
+    "altitude": "Operations in high-altitude areas",
     "quality": "Quality and logistics for mining",
-    "partners": "Network of national partners"
+    "partners": "National partners network"
   },
   "services": {
-    "title": "Services",
+    "title": "Solutions",
     "desc": "Specialists in high-altitude operations and mining supply chains.",
-    "s1Title": "Supply & logistics at altitude",
-    "s1Desc": "Technical supply for works and camps: electrical, telecom, light infrastructure and more.",
-    "s2Title": "Food service for mining \u2013 Parador Baco\u00f1a",
-    "s2Desc": "Energy menu, controlled timing, food safety and traveler experience.",
-    "s3Title": "Integration with technical providers (GPI / Conduspar)",
-    "s3Desc": "Certified industrial cables, support for tenders and technical purchasing."
+    "s1Title": "Productive Value Chain Projects",
+    "s1Desc": "Comprehensive solutions for logistics, supply and infrastructure in high-altitude value chains.",
+    "s2Title": "Infrastructure and Innovation",
+    "s2Desc": "Renewable energy, telecommunications and technological developments driving the future of mining."
+  },
+  "values": {
+    "heading": "Commitment to excellence and sustainable growth",
+    "subheading": "We act with integrity, innovation and collaboration to deliver high-performance solutions that protect the environment and exceed our clients’ expectations.",
+    "cta": "About us",
+    "items": {
+      "sustain": {
+        "title": "Sustainability",
+        "desc": "We operate responsibly, reducing our environmental footprint and promoting efficient use of resources."
+      },
+      "quality": {
+        "title": "Quality",
+        "desc": "We apply strict standards, process control and continuous improvement to ensure reliable outcomes."
+      },
+      "innov": {
+        "title": "Innovation",
+        "desc": "We foster creativity and technology adoption to tackle logistical, energy and high-altitude challenges."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "desc": "Transparent, ethical relationships that honor commitments and build long-term trust."
+      },
+      "collab": {
+        "title": "Collaboration",
+        "desc": "We partner with clients and suppliers to achieve shared goals and measurable results."
+      },
+      "commit": {
+        "title": "Commitment",
+        "desc": "Results-oriented execution, hands-on service and accountability in every delivery."
+      }
+    }
   },
   "clients": {
-    "title": "Clients & sectors",
-    "desc": "We support builders, electrical suppliers and service companies for mining in Salta and NOA.",
-    "c1": "High-altitude builders",
+    "title": "Clients",
+    "desc": "Companies that trust our solutions.",
+    "c1": "High-altitude construction companies",
     "c2": "Electrical / telco suppliers",
     "c3": "Mining operations"
   },
   "alliances": {
     "title": "Strategic alliances",
-    "desc": "Partners to expand technical capabilities, certifications and national coverage.",
+    "desc": "Partners to expand technical capacities, certifications and national coverage.",
     "gpi": "Grupo Producir Integral (GPI)",
-    "conduspar": "Conduspar \u00b7 Industrial cables"
+    "conduspar": "Conduspar · Industrial cables"
   },
   "cta": {
     "title": "Need a tailored proposal?",
-    "desc": "Tell us about your project and we'll send a preliminary scope within 24-48 h.",
-    "button": "Contact the team"
+    "desc": "Tell us about your project and within 24-48h we’ll send you a preliminary scope.",
+    "button": "Contact us"
   },
   "contact": {
     "title": "Contact",
-    "desc": "Write to us and we'll schedule a call to understand your needs.",
-    "name": "Name & company",
+    "desc": "Write to us and we’ll schedule a call to understand your needs.",
+    "name": "Name and company",
     "email": "Email",
     "message": "Message",
     "send": "Send",
