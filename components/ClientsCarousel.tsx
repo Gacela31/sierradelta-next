@@ -14,12 +14,14 @@ export default function ClientsCarousel() {
 
   // ⚠️ Colocá estos archivos en /public/logos/
   const logos = [
-    { src: '/logos/msu.svg', alt: 'MSU Green Energy' },
-    { src: '/logos/pampa.svg', alt: 'Pampa Energía' },
-    { src: '/logos/ganfeng.svg', alt: 'Ganfeng Lithium' },
-    { src: '/logos/genneia.svg', alt: 'Genneia' },
-    { src: '/logos/pcr.svg', alt: 'PCR' },
-    { src: '/logos/lhenergy.svg', alt: 'LH Energy' },
+    { src: '/logos/dinatec.svg', alt: 'Dinatec' },
+    { src: '/logos/ecco sau.svg', alt: 'Ecco SAU' },
+    { src: '/logos/mva.svg', alt: 'MVA' },
+    { src: '/logos/pecom chediak huasi.svg', alt: 'Pecomo Chediak Huasi' },
+    { src: '/logos/poco enc.svg', alt: 'Posco EnC' },
+    { src: '/logos/posco sau.svg', alt: 'Posco SAU' },
+    { src: '/logos/socompa.svg', alt: 'Socompa' },
+    { src: '/logos/tastil.svg', alt: 'Tastil' },
   ];
 
   // hacemos dos filas iguales para efecto “infinite”
@@ -43,7 +45,7 @@ export default function ClientsCarousel() {
           <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-slate-50 to-transparent" />
 
           <div className="group">
-            <div className="flex items-center gap-12 animate-[scroll_35s_linear_infinite] group-hover:[animation-play-state:paused] will-change-transform">
+            <div className="flex items-center gap-8 animate-[scroll_18s_linear_infinite] group-hover:[animation-play-state:paused] will-change-transform">
               {track.map((l, i) => (
                 <div key={i} className="relative h-12 w-40 md:h-14 md:w-48 flex-none opacity-80 hover:opacity-100 transition">
                   <Image
