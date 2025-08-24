@@ -25,39 +25,29 @@
     "s1Title": "Productive Value Chain Projects",
     "s1Desc": "Comprehensive solutions for logistics, supply and infrastructure in high-altitude value chains.",
     "s2Title": "Infrastructure and Innovation",
-    "s2Desc": "Renewable energy, telecommunications and technological developments driving the future of mining."
+    "s2Desc": "Renewable energy, telecommunications and technological developments driving the future."
   },
   "values": {
-    "heading": "Commitment to excellence and sustainable growth",
-    "subheading": "We act with integrity, innovation and collaboration to deliver high-performance solutions that protect the environment and exceed our clients’ expectations.",
-    "cta": "About us",
-    "items": {
-      "sustain": {
-        "title": "Sustainability",
-        "desc": "We operate responsibly, reducing our environmental footprint and promoting efficient use of resources."
-      },
-      "quality": {
-        "title": "Quality",
-        "desc": "We apply strict standards, process control and continuous improvement to ensure reliable outcomes."
-      },
-      "innov": {
-        "title": "Innovation",
-        "desc": "We foster creativity and technology adoption to tackle logistical, energy and high-altitude challenges."
-      },
-      "integrity": {
-        "title": "Integrity",
-        "desc": "Transparent, ethical relationships that honor commitments and build long-term trust."
-      },
-      "collab": {
-        "title": "Collaboration",
-        "desc": "We partner with clients and suppliers to achieve shared goals and measurable results."
-      },
-      "commit": {
-        "title": "Commitment",
-        "desc": "Results-oriented execution, hands-on service and accountability in every delivery."
-      }
+  "heading": "Grupo SierraDelta SRL works with a clear purpose",
+  "subheading": "transform our region through sustainable, innovative projects and a deep commitment to community development. Our identity as a company in Salta gets reflected in everything we do, as we act through three core pillars:",
+  "cta": "About us",
+  "items": {
+    "sustain": {
+      "title": "Local-Led Development",
+      "desc": "We boost local jobs and value creation at the source, strengthening regional economies while honoring the cultural identity of every community where we operate."
+    },
+    "quality": {
+      "title": "Sustainability",
+      "desc": "We design efficient energy solutions for remote environments, prioritizing environmental care, responsible resource use, and growth aligned with territorial regeneration."
+    },
+    "innov": {
+      "title": "Innovation",
+      "desc": "We apply technology, engineering, and creativity to solve energy, logistics, and construction challenges in extreme environments, delivering industrial solutions tailored to the Andean mining ecosystem in Northwest Argentina."
     }
   },
+  "closing": "We are Grupo SierraDelta—and we believe a purpose-driven company can be a real engine of transformation for Salta, its people, and its future."
+}
+,
   "clients": {
     "title": "Clients",
     "desc": "Companies that trust our solutions.",

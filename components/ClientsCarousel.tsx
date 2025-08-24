@@ -14,18 +14,18 @@ export default function ClientsCarousel() {
 
   // ⚠️ Colocá estos archivos en /public/logos/
   const logos = [
-    { src: '/logos/dinatec.svg', alt: 'Dinatec' },
     { src: '/logos/ecco sau.svg', alt: 'Ecco SAU' },
-    { src: '/logos/mva.svg', alt: 'MVA' },
     { src: '/logos/pecom chediak huasi.svg', alt: 'Pecomo Chediak Huasi' },
-    { src: '/logos/poco enc.svg', alt: 'Posco EnC' },
+    { src: '/logos/dinatec.svg', alt: 'Dinatec' },
     { src: '/logos/posco sau.svg', alt: 'Posco SAU' },
     { src: '/logos/socompa.svg', alt: 'Socompa' },
+    { src: '/logos/mva.svg', alt: 'MVA' },
+    { src: '/logos/poco enc.svg', alt: 'Posco EnC' },
     { src: '/logos/tastil.svg', alt: 'Tastil' },
   ];
 
   // hacemos dos filas iguales para efecto “infinite”
-  const track = [...logos, ...logos];
+  const track = [...logos, ...logos, ...logos];
 
   return (
     <section aria-labelledby="clients-title" className="bg-slate-50 py-16 sm:py-24">
@@ -41,8 +41,8 @@ export default function ClientsCarousel() {
         {/* Carrusel */}
         <div className="relative mt-10 overflow-hidden">
           {/* fades laterales */}
-          <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-slate-50 to-transparent" />
-          <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-slate-50 to-transparent" />
+          <div className="pointer-events-none absolute inset-y-0 left-0 w-12 bg-gradient-to-r from-slate-50 to-transparent" />
+          <div className="pointer-events-none absolute inset-y-0 right-0 w-12 bg-gradient-to-l from-slate-50 to-transparent" />
 
           <div className="group">
             <div className="flex items-center gap-8 animate-[scroll_18s_linear_infinite] group-hover:[animation-play-state:paused] will-change-transform">
@@ -64,13 +64,21 @@ export default function ClientsCarousel() {
 
       {/* CSS del carrusel (styled-jsx) */}
       <style jsx>{`
+        /* Si duplicás el array 3×:
+          const track = [...logos, ...logos, ...logos]
+          animamos hasta -66.666% para que SIEMPRE se vea el último logo completo */
         @keyframes scroll {
           from { transform: translateX(0); }
-          to   { transform: translateX(-50%); } /* la fila está duplicada */
+          to   { transform: translateX(-66.666%); } /* antes era -50% */
         }
-        /* Respeta preferencias de movimiento reducido */
+
+        /* Si usás la clase Tailwind arbitraria:
+          className="flex ... animate-[scroll_18s_linear_infinite] ..."
+          este keyframe se llama 'scroll' y la clase la utiliza. */
+
+        /* Respeta reduced motion */
         @media (prefers-reduced-motion: reduce) {
-          .animate-[scroll_35s_linear_infinite] { animation: none !important; }
+          .animate-[scroll_18s_linear_infinite] { animation: none !important; }
         }
       `}</style>
     </section>

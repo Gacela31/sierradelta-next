@@ -25,24 +25,24 @@
     "s1Title": "Alimentos y Producción",
     "s1Desc": "Soluciones integrales para la logística, abastecimiento e infraestructura de la cadena de valor en zonas de altura.",
     "s2Title": "Infraestructura e Innovación",
-    "s2Desc": "Energía renovable, telecomunicaciones y desarrollos tecnológicos que impulsan el futuro minero."
+    "s2Desc": "Energía renovable, telecomunicaciones y desarrollos tecnológicos que impulsan el futuro."
   },
   "values": {
-    "heading": "En Grupo SierraDelta SRL trabajamos con un firme propósito:",
+    "heading": "En Grupo SierraDelta SRL trabajamos con un firme propósito",
     "subheading": "transformar el territorio a través de proyectos sostenibles, innovadores y profundamente comprometidos con el desarrollo de las comunidades. Nuestra identidad como empresa salteña se expresa en cada acción que llevamos adelante bajo tres grandes ejes:",
     "cta": "Nuestra empresa",
     "items": {
       "sustain": {
         "title": "Desarrollo Endógeno",
-        "desc": "Creemos que el verdadero desarrollo nace desde adentro. Por eso, impulsamos proyectos productivos que respetan y fortalecen la identidad cultural y económica de cada región donde operamos. Desde la transformación de alimentos de origen en la Cordillera Oriental de Salta hasta la provisión de servicios gastronómicos para el sector minero en Los Andes, promovemos el agregado de valor local, el empleo genuino y el empoderamiento de las comunidades."
+        "desc": "Impulsamos empleo local y agregado de valor en origen, fortaleciendo las economías regionales y respetando la identidad cultural de cada comunidad donde desarrollamos nuestros proyectos." 
       },
       "quality": {
         "title": "Sostenibilidad",
-        "desc": "Actuamos con una mirada a largo plazo, comprometidos con el cuidado del entorno y el uso eficiente de los recursos. Nuestra unidad de Infraestructura e Innovación desarrolla proyectos de eficiencia energética, sistemas solares descentralizados y abastecimiento eléctrico adaptado a entornos remotos, aportando soluciones técnicas que también cuidan el medioambiente. Trabajamos para que el crecimiento económico de la región sea compatible con la regeneración de sus recursos naturales y la mejora de la calidad de vida."
+        "desc": "Diseñamos soluciones energéticas eficientes para entornos remotos, priorizando el cuidado ambiental, el uso responsable de recursos y el desarrollo compatible con la regeneración territorial."
       },
       "innov": {
         "title": "Innovación",
-        "desc": "La mejora constante es parte de nuestro ADN. Adoptamos tecnologías que resuelven desafíos logísticos, energéticos y constructivos en zonas de altura, con soluciones industriales de alta complejidad adaptadas a contextos exigentes. Desde la venta y provisión de cables certificados de media y alta tensión hasta obras civiles y electrificación integral, cada unidad de negocio se apoya en la creatividad, la ingeniería y la digitalización para abrir nuevos caminos en el NOA."
+        "desc": "Aplicamos tecnología, ingeniería y creatividad para resolver desafíos energéticos, logísticos y constructivos en zonas extremas, con soluciones industriales adaptadas al ecosistema minero del NOA."
       }
     },
     "closing": "Somos Grupo SierraDelta. Y creemos que una empresa con propósito puede ser un motor real de transformación para Salta, su gente y su futuro."
