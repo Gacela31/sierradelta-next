@@ -28,8 +28,8 @@ export default function NavBar() {
           {/* Menú */}
           <nav className="hidden md:flex gap-6 text-sm text-slate-700 items-center">
             <Link href={p('')}>{t('home')}</Link>
-            <Link href={p('/servicios')}>{t('services')}</Link>
-            <Link href={p('/clientes')}>{t('clients')}</Link>
+            <Link href={`${p('')}#servicios`}>{t('services')}</Link>
+            <Link href={`${p('')}#clientes`}>{t('clients')}</Link>
             <Link href={p('/alianzas')}>{t('alliances')}</Link>
             <Link href={p('/contacto')}>{t('contact')}</Link>
           </nav>

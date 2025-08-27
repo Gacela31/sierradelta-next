@@ -1,5 +1,5 @@
 {
-  "brand": "Grupo SierraDelta",
+  "brand": "SierraDelta Group",
   "nav": {
     "home": "Home",
     "services": "Services",
@@ -8,62 +8,147 @@
     "contact": "Contact"
   },
   "hero": {
-    "badge": "San Antonio de los Cobres, Salta · Argentina",
-    "title": "Solutions for the mining and food ecosystem at high altitude",
-    "desc": "We integrate gastronomy for mining operations, technical supply and strategic alliances for infrastructure, energy and telecommunications.",
-    "ctaServices": "See services",
-    "ctaContact": "Request proposal"
+    "badge": "Los Andes, Salta · Argentina",
+    "title": "Solutions for high-altitude productive and energy settings",
+    "desc": "We design and deliver food services, infrastructure, and tech-innovation projects tailored to strategic areas of Salta and Northwest Argentina (NOA). We promote local development, energy efficiency, and technical procurement for the business ecosystem.",
+    "ctaServices": "Explore services",
+    "ctaContact": "Request a proposal"
   },
   "bullets": {
-    "altitude": "Operations in high-altitude areas",
+    "altitude": "Operations at high altitude",
     "quality": "Quality and logistics for mining",
-    "partners": "National partners network"
+    "partners": "Network of national partners"
   },
   "services": {
-    "title": "Solutions",
+    "title": "Services",
     "desc": "Specialists in high-altitude operations and mining supply chains.",
-    "s1Title": "Productive Value Chain Projects",
-    "s1Desc": "Comprehensive solutions for logistics, supply and infrastructure in high-altitude value chains.",
-    "s2Title": "Infrastructure and Innovation",
-    "s2Desc": "Renewable energy, telecommunications and technological developments driving the future."
+    "s1Title": "Food & Production",
+    "s1Desc": "Integrated solutions for logistics, sourcing, and infrastructure across the value chain in high-altitude regions.",
+    "s2Title": "Infrastructure & Innovation",
+    "s2Desc": "Renewable energy, telecommunications, and technology developments that move the future forward."
   },
   "values": {
-  "heading": "Grupo SierraDelta SRL works with a clear purpose",
-  "subheading": "transform our region through sustainable, innovative projects and a deep commitment to community development. Our identity as a company in Salta gets reflected in everything we do, as we act through three core pillars:",
-  "cta": "About us",
-  "items": {
-    "sustain": {
-      "title": "Local-Led Development",
-      "desc": "We boost local jobs and value creation at the source, strengthening regional economies while honoring the cultural identity of every community where we operate."
+    "heading": "At SierraDelta Group we work with a clear purpose",
+    "subheading": "to transform territories through sustainable, innovative projects that are deeply committed to community development. Our identity as a Salta-based company comes through in everything we do across three core pillars:",
+    "cta": "Our company",
+    "items": {
+      "sustain": {
+        "title": "Local-led development",
+        "desc": "We create local jobs and add value at the source, strengthening regional economies while respecting the cultural identity of every community where we operate."
+      },
+      "quality": {
+        "title": "Sustainability",
+        "desc": "We design efficient energy solutions for remote settings, prioritizing environmental care, responsible use of resources, and growth that aligns with territorial regeneration."
+      },
+      "innov": {
+        "title": "Innovation",
+        "desc": "We apply technology, engineering, and creativity to solve energy, logistics, and construction challenges in extreme environments, with industrial solutions tailored to the NOA mining ecosystem."
+      }
     },
-    "quality": {
-      "title": "Sustainability",
-      "desc": "We design efficient energy solutions for remote environments, prioritizing environmental care, responsible resource use, and growth aligned with territorial regeneration."
-    },
-    "innov": {
-      "title": "Innovation",
-      "desc": "We apply technology, engineering, and creativity to solve energy, logistics, and construction challenges in extreme environments, delivering industrial solutions tailored to the Andean mining ecosystem in Northwest Argentina."
-    }
+    "closing": "We are SierraDelta Group. We believe a purpose-driven company can be a real engine of transformation for Salta—its people and its future."
   },
-  "closing": "We are Grupo SierraDelta—and we believe a purpose-driven company can be a real engine of transformation for Salta, its people, and its future."
-}
-,
   "clients": {
     "title": "Clients",
     "desc": "Companies that trust our solutions.",
-    "c1": "High-altitude construction companies",
-    "c2": "Electrical / telco suppliers",
+    "c1": "High-altitude contractors",
+    "c2": "Power / telco suppliers",
     "c3": "Mining operations"
   },
+  "alimentos": {
+    "localePrefix": "en",
+    "hero": {
+      "badge": "Product Value Chain",
+      "title": "Food & Production",
+      "desc": "Two nodes that amplify each other: Casa Díaz crafts zero-mile food in the Calchaquí Valleys, and Bacoña offers it as a high-altitude gastronomic experience in the Puna. We accelerate local entrepreneurs and prioritize organic raw materials."
+    },
+    "valueChain": {
+      "title": "How the chain flows",
+      "steps": [
+        {
+          "title": "Zero-mile production",
+          "desc": "Artisanal, organic processing at Casa Díaz (Seclantás, Calchaquí Valleys)."
+        },
+        {
+          "title": "Quality & high-altitude logistics",
+          "desc": "Cold chain, sourcing, and traceability for areas above 3,500 masl."
+        },
+        {
+          "title": "Commercialization",
+          "desc": "Sales and dining experience at Parador Bacoña (San Antonio de los Cobres, Puna)."
+        }
+      ]
+    },
+    "casa": {
+      "kicker": "Seclantás · Calchaquí Valleys",
+      "title": "Casa Díaz — Zero-mile production",
+      "desc": "A production workshop focused on organic inputs and regional recipes. A space for training and entrepreneur acceleration to strengthen the local economy.",
+      "alt": "Local production in the Calchaquí Valleys",
+      "points": [
+        "Careful processes: traceability and food safety.",
+        "Purchasing from local producers and working with cooperatives.",
+        "Product development with territorial identity."
+      ]
+    },
+    "bacona": {
+      "kicker": "San Antonio de los Cobres · Puna",
+      "title": "Parador Bacoña — Point of sale",
+      "desc": "A high-altitude culinary experience that connects travelers and communities. Direct sale of products made at Casa Díaz and dishes featuring zero-mile ingredients.",
+      "alt": "Parador Bacoña in the Puna",
+      "points": [
+        "Hospitality and sustainable tourism in the Puna.",
+        "Showcase for local entrepreneurs and brands.",
+        "Logistics tailored to 3,500+ masl."
+      ]
+    },
+    "impact": {
+      "entrepreneurs": { "value": "10+", "label": "entrepreneurs accelerated" },
+      "local": { "value": "100%", "label": "local-origin raw materials" },
+      "nodes": { "value": "2", "label": "integrated nodes (production → retail)" }
+    },
+    "cta": "Request information"
+  },
   "alliances": {
-    "title": "Strategic alliances",
-    "desc": "Partners to expand technical capacities, certifications and national coverage.",
-    "gpi": "Grupo Producir Integral (GPI)",
-    "conduspar": "Conduspar · Industrial cables"
+    "chip": { "label": "Alliances", "partner": "SierraDelta × GPI" },
+    "title": "End-to-end solutions with our partners",
+    "subtitle": "Three core areas for high-altitude mining and industrial projects: civil works, solar energy, and electrification with medium- and high-voltage cabling.",
+    "partners": { "gpiAlt": "GPI" },
+    "cards": {
+      "civil": {
+        "title": "Large-scale civil works",
+        "alt": "Civil works and industrial construction",
+        "bullets": [
+          "Industrial buildings and refurbishments",
+          "Earthworks, foundations and concrete",
+          "Internal roads, camps and auxiliary works"
+        ]
+      },
+      "solar": {
+        "title": "Solar energy · Utility scale",
+        "alt": "Solar plants and substations",
+        "bullets": [
+          "EPC / Balance of Plant (BoP)",
+          "MV centers (34.5 kV) and grid tie-in",
+          "Operations & maintenance"
+        ]
+      },
+      "cables": {
+        "title": "MV/HV cables (Conduspar)",
+        "alt": "Medium and high-voltage cabling",
+        "bullets": [
+          "13.2–132 kV · IRAM/IEC",
+          "Joints, terminations and connectors",
+          "Technical support and high-altitude logistics"
+        ]
+      }
+    },
+    "cta": {
+      "title": "Need a proposal?",
+      "subtitle": "Tell us about your project and we’ll send a preliminary scope within 24–48 hours."
+    }
   },
   "cta": {
     "title": "Need a tailored proposal?",
-    "desc": "Tell us about your project and within 24-48h we’ll send you a preliminary scope.",
+    "desc": "Tell us about your project and we’ll send a preliminary scope within 24–48 hours.",
     "button": "Contact us"
   },
   "contact": {
@@ -71,9 +156,9 @@
     "desc": "Write to us and we’ll schedule a call to understand your needs.",
     "name": "Name and company",
     "email": "Email",
-    "message": "Message",
+    "message": "Inquiry",
     "send": "Send",
-    "disclaimer": "By sending you agree to be contacted by our team."
+    "disclaimer": "By submitting, you agree to be contacted by our team."
   },
   "footer": {
     "rights": "All rights reserved."
