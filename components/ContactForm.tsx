@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 
+
 export default function ContactForm() {
   const [status, setStatus] = useState<'idle'|'sending'|'ok'|'error'>('idle');
 
@@ -34,15 +35,15 @@ export default function ContactForm() {
     <form onSubmit={onSubmit} className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
       <div className="grid gap-4">
         <div>
-          <label className="mb-2 block text-sm">Nombre y empresa</label>
+          <label className="mb-2 block text-sm text-white/90">Nombre y empresa</label>
           <input name="name" className="w-full rounded-xl border border-white/10 bg-white/10 p-3 text-white placeholder-white/60 outline-none" placeholder="Ej: Ana · Constructora XYZ" />
         </div>
         <div>
-          <label className="mb-2 block text-sm">Email</label>
+          <label className="mb-2 block text-sm text-white/90">Email</label>
           <input name="email" type="email" className="w-full rounded-xl border border-white/10 bg-white/10 p-3 text-white placeholder-white/60 outline-none" placeholder="tu@email.com" />
         </div>
         <div>
-          <label className="mb-2 block text-sm">Consulta</label>
+          <label className="mb-2 block text-sm text-white/90">Consulta</label>
           <textarea name="message" rows={4} className="w-full rounded-xl border border-white/10 bg-white/10 p-3 text-white placeholder-white/60 outline-none" placeholder="Contanos sobre tu proyecto..." />
         </div>
         <button type="submit" className="w-full rounded-xl bg-white px-4 py-3 text-slate-900" disabled={status==='sending'}>

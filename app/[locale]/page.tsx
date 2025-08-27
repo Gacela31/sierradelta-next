@@ -14,8 +14,7 @@ export default function Page({params}: {params: {locale: string}}) {
       <Services locale={locale} />
       <Values/>
       <ClientsCarousel/>
-     
-      <CTA locale={locale} />
+      <CTA theme='brand' />
     </>
   );
 }

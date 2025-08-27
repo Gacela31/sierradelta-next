@@ -8,9 +8,9 @@
     "contact": "Contacto"
   },
   "hero": {
-    "badge": "San Antonio de los Cobres, Salta · Argentina",
-    "title": "Soluciones para el ecosistema minero y gastronómico en altura",
-    "desc": "Integramos gastronomía para operaciones mineras, proveeduría técnica y alianzas estratégicas para infraestructura, energía y telecomunicaciones.",
+    "badge": "Los Andes, Salta · Argentina",
+    "title": "Soluciones para entornos productivos y energéticos en altura",
+    "desc": "Diseñamos y ejecutamos proyectos de alimentación, infraestructura e innovación tecnológica adaptados a zonas estratégicas de Salta y el NOA. Impulsamos el desarrollo local, la eficiencia energética y la provisión técnica para el ecosistema empresarial.",
     "ctaServices": "Ver servicios",
     "ctaContact": "Pedir propuesta"
   },
@@ -20,7 +20,7 @@
     "partners": "Red de partners nacionales"
   },
   "services": {
-    "title": "Soluciones",
+    "title": "Servicios",
     "desc": "Especialistas en operaciones en altura y cadenas de suministro para minería.",
     "s1Title": "Alimentos y Producción",
     "s1Desc": "Soluciones integrales para la logística, abastecimiento e infraestructura de la cadena de valor en zonas de altura.",
@@ -54,11 +54,97 @@
     "c2": "Proveedores eléctricos / telco",
     "c3": "Operaciones mineras"
   },
+  "alimentos": {
+    "localePrefix": "es",
+    "hero": {
+      "badge": "Cadena de Valor Productiva",
+      "title": "Alimentos & Producción",
+      "desc": "Dos nodos que se potencian: Casa Díaz produce alimentos de kilómetro cero en los Valles Calchaquíes y Bacoña los ofrece como experiencia gastronómica en la Puna salteña. Aceleramos emprendedores locales y priorizamos materias primas orgánicas."
+    },
+    "valueChain": {
+      "title": "Cómo fluye la cadena",
+      "steps": [
+        {
+          "title": "Producción km 0",
+          "desc": "Elaboración artesanal y orgánica en Casa Díaz (Seclantás, Valles Calchaquíes)."
+        },
+        {
+          "title": "Calidad & logística en altura",
+          "desc": "Abastecimiento, cadena fría y trazabilidad para zonas por encima de 3.500 msnm."
+        },
+        {
+          "title": "Comercialización",
+          "desc": "Venta y experiencia gastronómica en Parador Bacoña (San Antonio de los Cobres, Puna)."
+        }
+      ]
+    },
+    "casa": {
+      "kicker": "Seclantás · Valles Calchaquíes",
+      "title": "Casa Díaz — Producción km 0",
+      "desc": "Taller de elaboración con foco en materias primas orgánicas y recetas regionales. Espacio de formación y aceleración de emprendedores para potenciar la economía local.",
+      "alt": "Producción local en los Valles Calchaquíes",
+      "points": [
+        "Procesos cuidados: trazabilidad e inocuidad.",
+        "Compras a productores locales y trabajo con cooperativas.",
+        "Desarrollo de productos de identidad territorial."
+      ]
+    },
+    "bacona": {
+      "kicker": "San Antonio de los Cobres · Puna",
+      "title": "Parador Bacoña — Punto de venta",
+      "desc": "Experiencia gastronómica en altura que conecta viajeros y comunidades. Venta directa de productos elaborados en Casa Díaz y oferta de platos con ingredientes de Km 0.",
+      "alt": "Parador Bacoña en la Puna",
+      "points": [
+        "Hospitalidad y turismo sostenible en la Puna.",
+        "Vitrina para emprendedores y marcas locales.",
+        "Logística adaptada a +3.500 msnm."
+      ]
+    },
+    "impact": {
+      "entrepreneurs": { "value": "10+", "label": "emprendedores acelerados" },
+      "local": { "value": "100%", "label": "materias primas de origen local" },
+      "nodes": { "value": "2", "label": "nodos integrados (producción → venta)" }
+    },
+    "cta": "Pedir información"
+  },
   "alliances": {
-    "title": "Alianzas estratégicas",
-    "desc": "Socios para ampliar capacidades técnicas, certificaciones y cobertura nacional.",
-    "gpi": "Grupo Producir Integral (GPI)",
-    "conduspar": "Conduspar · Cables industriales"
+    "chip": { "label": "Alianzas", "partner": "SierraDelta × GPI" },
+    "title": "Soluciones integrales junto a nuestros partners",
+    "subtitle": "Tres áreas clave para proyectos mineros e industriales en altura: obras civiles, energía solar y electrificación con cables de media y alta tensión.",
+    "partners": { "gpiAlt": "GPI" },
+    "cards": {
+      "civil": {
+        "title": "Obras civiles de envergadura",
+        "alt": "Obras civiles y construcción industrial",
+        "bullets": [
+          "Naves industriales y reformas",
+          "Movimiento de suelos, fundaciones y hormigón",
+          "Caminos internos, campamentos y obras auxiliares"
+        ]
+      },
+      "solar": {
+        "title": "Energía solar · Parques",
+        "alt": "Parques solares y subestaciones",
+        "bullets": [
+          "EPC / BoP de plantas solares",
+          "Centros de MT (34,5 kV) e interconexión",
+          "Operación y Mantenimiento"
+        ]
+      },
+      "cables": {
+        "title": "Cables MT/AT (Conduspar)",
+        "alt": "Cables de media y alta tensión",
+        "bullets": [
+          "13,2–132 kV · IRAM/IEC",
+          "Empalmes, terminales y conectores",
+          "Soporte técnico y logística a altura"
+        ]
+      }
+    },
+    "cta": {
+      "title": "¿Necesitás una propuesta?",
+      "subtitle": "Contanos sobre tu proyecto y en 24–48 h te enviamos un alcance preliminar."
+    }
   },
   "cta": {
     "title": "¿Necesitás una propuesta a medida?",

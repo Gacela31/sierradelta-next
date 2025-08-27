@@ -1,5 +1,5 @@
-import {Quicksand} from 'next/font/google';
-const quicksand = Quicksand({subsets: ['latin'], weight: ['400','500','600']});
+import {Roboto_Flex} from 'next/font/google';
+const roboto = Roboto_Flex({ subsets: ['latin'], variable: '--font-sans', display: 'swap' });
 
 import type {Metadata} from 'next';
 import {NextIntlClientProvider} from 'next-intl';
@@ -50,16 +50,16 @@ export default async function LocaleLayout({children, params: {locale}}: Props) 
   unstable_setRequestLocale(locale);
   const messages = await getMessages();
 
-  return (
-    <html lang={locale} className="antialiased">
-      {/* 👇 Aplicamos Quicksand a TODO el sitio */}
-      <body className={`${quicksand.className} flex min-h-screen flex-col bg-white text-slate-900 pt-16`}>
-        <NextIntlClientProvider messages={messages}>
-          <NavBar />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </NextIntlClientProvider>
-      </body>
-    </html>
-  );
+ return (
+  <html lang={locale} className={`${roboto.variable} antialiased`}>
+    <body className="font-sans flex min-h-screen flex-col bg-white text-slate-900 pt-16">
+      <NextIntlClientProvider messages={messages}>
+        <NavBar />
+        <main className="flex-1">{children}</main>
+        <Footer />
+      </NextIntlClientProvider>
+
+    </body>
+  </html>
+);
 }

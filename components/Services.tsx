@@ -21,7 +21,7 @@ export default function Services({ locale }: Props) {
       desc: t('s1Desc'),
       img: valueChainJpg, // ← import estático
       cta: locale === 'es' ? 'Ver proyectos' : 'See projects',
-      href: `/${locale}/contacto`, // o `/${locale}/servicios#cadena`
+      href: `/${locale}/alimentos`, // o `/${locale}/servicios#cadena`
       alt: 'Proyectos de Cadena de Valor Productiva',
       priority: true, // prioriza la primera imagen
     },
@@ -30,8 +30,8 @@ export default function Services({ locale }: Props) {
       title: t('s2Title'),
       desc: t('s2Desc'),
       img: techInnovationJpg,
-      cta: locale === 'es' ? 'Ver proyectos' : 'See projects',
-      href: `/${locale}/contacto`, // o `/${locale}/servicios#tecnologia`
+      cta: locale === 'es' ? 'Ver servicios' : 'See services',
+      href: `/${locale}/alianzas`, // o `/${locale}/servicios#tecnologia`
       alt: 'Proyectos de Tecnología e Innovación',
       priority: false,
     },

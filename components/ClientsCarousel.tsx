@@ -28,7 +28,7 @@ export default function ClientsCarousel() {
   const track = [...logos, ...logos, ...logos];
 
   return (
-    <section aria-labelledby="clients-title" className="bg-slate-50 py-16 sm:py-24">
+    <section  id="clientes" aria-labelledby="clients-title" className="bg-slate-50 py-16 sm:py-24">
       <div className="container max-w-7xl px-6">
         <div className="text-center">
           <h2 id="clients-title" className="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900">
