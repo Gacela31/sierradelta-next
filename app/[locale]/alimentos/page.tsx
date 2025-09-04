@@ -125,7 +125,7 @@ export default function FoodProjectsPage() {
         </div>
       </section>
 
-      {/* Impacto + CTA */}
+      {/* Impacto + CTA 
       <section className="container px-6 pb-20">
         <div className="mx-auto grid max-w-5xl gap-6 rounded-2xl border border-slate-200 bg-white p-6 sm:grid-cols-3">
           <div className="text-center">
@@ -151,7 +151,7 @@ export default function FoodProjectsPage() {
             <ArrowRight className="h-4 w-4" />
           </a>
         </div>
-      </section>
+      </section>*/}
 
       {/* Reutilizamos tu CTA con formulario en modo brand */}
       <CTA theme="brand" />
