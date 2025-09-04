@@ -14,7 +14,7 @@ export default function Hero({locale}:{locale: string}) {
           <h1 className="mt-4 text-4xl font-bold tracking-tight sm:text-5xl">{t('title')}</h1>
           <p className="mt-4 text-slate-600">{t('desc')}</p>
          <div className="mt-6 flex flex-wrap gap-3">
-          <Link className="btn-primary" href={`/${locale}/servicios`}>{t('ctaServices')}</Link>
+          <Link className="btn-primary" href={`/${locale}#servicios`}>{t('ctaServices')}</Link>
           <Link className="btn-outline" href={`/${locale}/contacto`}>{t('ctaContact')}</Link>
          </div>
           <ul className="mt-6 space-y-2 text-sm text-slate-600">

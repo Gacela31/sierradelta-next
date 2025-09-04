@@ -55,7 +55,7 @@ export default function Values() {
           </p>
         </div>
 
-        {/* Botón centrado (igual que antes) */}
+        {/* Botón centrado (igual que antes) 
         <div className="mt-8 flex justify-center">
           <Link
             href={`/${locale}/empresa`}
@@ -66,7 +66,7 @@ export default function Values() {
               <path d="M5 12h14M13 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Link>
-        </div>
+        </div>*/}
       </div>
     </section>
   );

@@ -10,35 +10,35 @@
   "hero": {
     "badge": "Los Andes, Salta · Argentina",
     "title": "Solutions for high-altitude productive and energy settings",
-    "desc": "We design and deliver food services, infrastructure, and tech-innovation projects tailored to strategic areas of Salta and Northwest Argentina (NOA). We promote local development, energy efficiency, and technical procurement for the business ecosystem.",
+    "desc": "We design and deliver food services, infrastructure, and technology-innovation projects tailored to strategic areas of Salta and Northwest Argentina (NOA). We drive local development, energy efficiency, and technical procurement for the business ecosystem.",
     "ctaServices": "Explore services",
     "ctaContact": "Request a proposal"
   },
   "bullets": {
     "altitude": "Operations at high altitude",
-    "quality": "Quality and logistics for mining",
+    "quality": "Quality and logistics for the business sector",
     "partners": "Network of national partners"
   },
   "services": {
     "title": "Services",
     "desc": "Specialists in high-altitude operations and mining supply chains.",
     "s1Title": "Food & Production",
-    "s1Desc": "Integrated solutions for logistics, sourcing, and infrastructure across the value chain in high-altitude regions.",
+    "s1Desc": "End-to-end solutions for logistics, sourcing, and infrastructure across the value chain in high-altitude regions.",
     "s2Title": "Infrastructure & Innovation",
-    "s2Desc": "Renewable energy, telecommunications, and technology developments that move the future forward."
+    "s2Desc": "Renewable energy, telecommunications, and technology initiatives that move the future forward."
   },
   "values": {
     "heading": "At SierraDelta Group we work with a clear purpose",
-    "subheading": "to transform territories through sustainable, innovative projects that are deeply committed to community development. Our identity as a Salta-based company comes through in everything we do across three core pillars:",
+    "subheading": "to transform territories through sustainable, innovative projects deeply committed to community development. Our identity as a Salta-based company comes through in everything we do across three core pillars:",
     "cta": "Our company",
     "items": {
       "sustain": {
         "title": "Local-led development",
-        "desc": "We create local jobs and add value at the source, strengthening regional economies while respecting the cultural identity of every community where we operate."
+        "desc": "We create local jobs and add value at the source, strengthening regional economies while respecting each community’s cultural identity."
       },
       "quality": {
         "title": "Sustainability",
-        "desc": "We design efficient energy solutions for remote settings, prioritizing environmental care, responsible use of resources, and growth that aligns with territorial regeneration."
+        "desc": "We design efficient energy solutions for remote settings, prioritizing environmental care, responsible resource use, and growth aligned with territorial regeneration."
       },
       "innov": {
         "title": "Innovation",
@@ -59,7 +59,7 @@
     "hero": {
       "badge": "Product Value Chain",
       "title": "Food & Production",
-      "desc": "Two nodes that amplify each other: Casa Díaz crafts zero-mile food in the Calchaquí Valleys, and Bacoña offers it as a high-altitude gastronomic experience in the Puna. We accelerate local entrepreneurs and prioritize organic raw materials."
+      "desc": "Two nodes that amplify each other: Casa Díaz crafts zero-mile food in the Calchaquí Valleys, and BACOÑA serves as a logistics hub and dining experience in the Puna. We accelerate local entrepreneurs and prioritize organic raw materials."
     },
     "valueChain": {
       "title": "How the chain flows",
@@ -70,18 +70,18 @@
         },
         {
           "title": "Quality & high-altitude logistics",
-          "desc": "Cold chain, sourcing, and traceability for areas above 3,500 masl."
+          "desc": "Sourcing, cold chain, and traceability for areas above 3,500 masl."
         },
         {
           "title": "Commercialization",
-          "desc": "Sales and dining experience at Parador Bacoña (San Antonio de los Cobres, Puna)."
+          "desc": "Sales and culinary experience at Parador Bacoña (San Antonio de los Cobres, Puna)."
         }
       ]
     },
     "casa": {
       "kicker": "Seclantás · Calchaquí Valleys",
       "title": "Casa Díaz — Zero-mile production",
-      "desc": "A production workshop focused on organic inputs and regional recipes. A space for training and entrepreneur acceleration to strengthen the local economy.",
+      "desc": "Farm and production site focused on organic inputs and regional recipes. A space for training and entrepreneur acceleration to strengthen the local economy.",
       "alt": "Local production in the Calchaquí Valleys",
       "points": [
         "Careful processes: traceability and food safety.",
@@ -92,11 +92,11 @@
     "bacona": {
       "kicker": "San Antonio de los Cobres · Puna",
       "title": "Parador Bacoña — Point of sale",
-      "desc": "A high-altitude culinary experience that connects travelers and communities. Direct sale of products made at Casa Díaz and dishes featuring zero-mile ingredients.",
+      "desc": "A high-altitude logistics and dining hub connecting corporate travelers, tourists, and communities. Direct sale of products made in the Calchaquí Valleys and dishes featuring zero-mile ingredients.",
       "alt": "Parador Bacoña in the Puna",
       "points": [
-        "Hospitality and sustainable tourism in the Puna.",
-        "Showcase for local entrepreneurs and brands.",
+        "Hospitality and sustainability in the Puna.",
+        "A showcase for local entrepreneurs and brands.",
         "Logistics tailored to 3,500+ masl."
       ]
     },
@@ -133,7 +133,7 @@
       },
       "cables": {
         "title": "MV/HV cables (Conduspar)",
-        "alt": "Medium and high-voltage cabling",
+        "alt": "Medium- and high-voltage cabling",
         "bullets": [
           "13.2–132 kV · IRAM/IEC",
           "Joints, terminations and connectors",

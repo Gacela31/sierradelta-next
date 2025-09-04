@@ -16,7 +16,7 @@
   },
   "bullets": {
     "altitude": "Operación en zonas de altura",
-    "quality": "Calidad y logística para minería",
+    "quality": "Calidad y logística para sector empresario",
     "partners": "Red de partners nacionales"
   },
   "services": {
@@ -59,7 +59,7 @@
     "hero": {
       "badge": "Cadena de Valor Productiva",
       "title": "Alimentos & Producción",
-      "desc": "Dos nodos que se potencian: Casa Díaz produce alimentos de kilómetro cero en los Valles Calchaquíes y Bacoña los ofrece como experiencia gastronómica en la Puna salteña. Aceleramos emprendedores locales y priorizamos materias primas orgánicas."
+      "desc": "Dos nodos que se potencian: Casa Díaz produce alimentos de kilómetro cero en los Valles Calchaquíes y BACOÑA los ofrece como Punto de logística y servicio gastronómico en la Puna salteña. Aceleramos emprendedores locales y priorizamos materias primas orgánicas."
     },
     "valueChain": {
       "title": "Cómo fluye la cadena",
@@ -81,7 +81,7 @@
     "casa": {
       "kicker": "Seclantás · Valles Calchaquíes",
       "title": "Casa Díaz — Producción km 0",
-      "desc": "Taller de elaboración con foco en materias primas orgánicas y recetas regionales. Espacio de formación y aceleración de emprendedores para potenciar la economía local.",
+      "desc": "Finca y punto de elaboración con foco en materias primas orgánicas y rescate de recetas regionales. Espacio de formación y aceleración de emprendedores para potenciar la economía local.",
       "alt": "Producción local en los Valles Calchaquíes",
       "points": [
         "Procesos cuidados: trazabilidad e inocuidad.",
@@ -92,10 +92,10 @@
     "bacona": {
       "kicker": "San Antonio de los Cobres · Puna",
       "title": "Parador Bacoña — Punto de venta",
-      "desc": "Experiencia gastronómica en altura que conecta viajeros y comunidades. Venta directa de productos elaborados en Casa Díaz y oferta de platos con ingredientes de Km 0.",
+      "desc": "Punto de logística y servicio gastronómico en altura que conecta viajeros corporativos, turistas y comunidades. Venta directa de productos elaborados en los Valles Calchaquies y oferta de platos con ingredientes de Km 0.",
       "alt": "Parador Bacoña en la Puna",
       "points": [
-        "Hospitalidad y turismo sostenible en la Puna.",
+        "Hospitalidad y sostenibilidad en la Puna.",
         "Vitrina para emprendedores y marcas locales.",
         "Logística adaptada a +3.500 msnm."
       ]
