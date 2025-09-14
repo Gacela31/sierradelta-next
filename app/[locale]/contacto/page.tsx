@@ -14,8 +14,8 @@ export default function ContactPage() {
           <p className="mt-2 max-w-xl text-slate-300">{t('desc')}</p>
           <ul className="mt-6 space-y-3 text-sm text-slate-200">
             <li>San Antonio de los Cobres · Salta</li>
-            <li>+54 9 387 ...</li>
-            <li>contacto@gruposierradelta.com</li>
+            <li>+54 9 3874 47-9065</li>
+            <li>info@gruposierradelta.com</li>
           </ul>
         </div>
 
