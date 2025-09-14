@@ -12,9 +12,9 @@ export default function ContactForm() {
     const form = e.currentTarget;
 
     const fullName = (form.elements.namedItem('fullName') as HTMLInputElement).value;
-    const email    = (form.elements.namedItem('email') as HTMLInputElement).value;
     const company  = (form.elements.namedItem('company') as HTMLInputElement).value;
     const role     = (form.elements.namedItem('role') as HTMLInputElement).value;
+    const email    = (form.elements.namedItem('email') as HTMLInputElement).value;
     const service  = (form.elements.namedItem('service') as HTMLSelectElement).value;
     const message  = (form.elements.namedItem('message') as HTMLTextAreaElement).value;
 
